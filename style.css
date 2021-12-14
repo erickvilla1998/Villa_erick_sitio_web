@@ -200,6 +200,12 @@ margin-top: 10px;
     color: black;
 }
 
+.noticias__item{
+    text-align: center;
+    padding: 2rem;
+    background-color:#FDC723 ;
+}
+
 /*____________________FlexBox_____________ */
 .contenedor{
     background-color:#FDC723;
