@@ -199,3 +199,84 @@ margin-top: 10px;
     text-align: center;
     color: black;
 }
+
+/*____________________FlexBox_____________ */
+.contenedor{
+    background-color:#FDC723;
+    width: 100%;
+    margin: 10rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    position: relative;
+    height: 50vh;
+    display: flex;
+    row-gap: 1rem;
+    font-weight: bold;
+}
+
+
+[class*="tarjeta"]{
+    background-color: rgb(218, 31, 155);
+    padding: .5rem;
+    flex-basis: 5rem;
+    flex-grow: 1;
+    transition: .3s;
+}
+
+
+[class*="tarjeta"]:hover{
+    flex-grow: 10;
+}
+
+[class*="tarjeta"]:hover > .hover_visible{
+    flex-grow: 10;
+    opacity: 1;
+}
+
+.hover_visible{
+    width: 10rem;
+    position: absolute;
+    left: 7rem;
+    opacity: 0;
+    transition: 1s;
+    font-weight: lighter;
+
+}
+
+.tarjeta-1{
+    background-color: #FDC723;
+    position: relative;
+    overflow: hidden;
+}
+.tarjeta-2{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.tarjeta-2 p {
+    color: rgb(255, 255, 255);
+}
+
+.tarjeta-3{
+    background-color:#FDC723;
+    position: relative;
+    overflow: hidden;
+    
+}
+.tarjeta-4{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+
+.tarjeta-4 p {
+    color: rgb(255, 255, 255);
+}
+
+.tarjeta-5{
+    background-color: #FDC723;
+    position: relative;
+    overflow: hidden;
+}
